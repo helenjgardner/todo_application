@@ -1,0 +1,29 @@
+Dynamic Items:
+Items to complete
+Items already done (assume if completed task is deleted then not counted here)
+Add new task
+Delete task (uncompleted)
+Delete task (completed)
+Mark task complete
+Display to do list
+Display completed list
+
+Various components need to talk to each other and update if something happens.
+Initialisation:
+Items to complete
+Items already done
+Display to do
+Display completed
+
+Add new task runs:
+items to complete
+Display to do
+
+Delete task runs:
+Items to complete (or items already done depending on how it started off)
+display to do (or display completed)
+
+Mark task complete runs:
+Items to complete and items already done
+display to do and display completed
+
