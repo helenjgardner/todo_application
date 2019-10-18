@@ -5,19 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>To Do List Manager</title>
 
     <div>
-
-
         <h2> Today's To Do List </h2>
-
         <div class="container">
-            <div class="row" id="totalItem">
+            <div class="row totalItem">
                 <hr />
                 <div class="col-12 col-sm-6 red">
                     3 Tasks Still to Complete
@@ -26,79 +24,71 @@
                     2 Tasks Already Done!!
                 </div>
             </div>
-        </div>
-        <div class="container">
-            <hr />
+            <hr>
             <div class="row">
-                <div class="col-12">
-                    <button type="button" class="btn btn-primary" id="AddButton">Add</button>
+                <div class="col-10">
+                    <button type="button" class="btn btn-success" id="addButton">Add</button>
                     <input type="text" placeholder="New task description" />
-                </div>
-            </div>
-
-            <br />
-        </div>
-        <div class="container">
-            <hr />
-            <h5> Tasks Still to Complete </h5>
-            <div class="row toDo">
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary" id="taskTButton">Delete</button>
-                </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-secondary" id="taskTButton">Mark Done</button>
-                </div>
-                <div class="col-8">
-                    Javascript Exercises
-                </div>
-            </div>
-            <div class="row toDo">
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary" id="taskTButton">Delete</button>
-                </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-secondary" id="taskTButton">Mark Done</button>
-                </div>
-                <div class="col-8">
-                    Higher Order Function CodeWars
-                </div>
-            </div>
-            <div class="row toDo">
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary" id="taskTButton">Delete</button>
-                </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-secondary" id="taskTButton">Mark Done</button>
-                </div>
-                <div class="col-8">
-                    Make Website look less rubbish
-                </div>
-            </div>
-
-
-            <br />
-        </div>
-        <div class="container">
-            <h5> Tasks Already Done!!</h5>
-            <div class="row done">
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary" id="taskCButton">Delete</button>
-                </div>
-                <div class="col-10">
-                    School Run
-                </div>
-            </div>
-            <div class="row done">
-                <div class="col-2">
-                    <button type="button" class="btn btn-primary" id="taskCButton">Delete</button>
-                </div>
-                <div class="col-10">
-                    Morning Coffee
                 </div>
             </div>
         </div>
     </div>
-
+    <br>
+    <hr>
+    <h5> Tasks Still to Complete </h5>
+    <div class="row toDo">
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
+        </div>
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
+        </div>
+        <div class="col-12 col-sm-8">
+            Eat Snack
+        </div>
+    </div>
+    <div class="row toDo">
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
+        </div>
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
+        </div>
+        <div class="col-12 col-sm-8">
+            Play with Lego and K'nex
+        </div>
+    </div>
+    <div class="row toDo">
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
+        </div>
+        <div class="col-6 col-sm-2">
+            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
+        </div>
+        <div class="col-12 col-sm-8">
+            Watch TV
+        </div>
+    </div>
+    <br>
+    <h5> Tasks Already Done!!</h5>
+    <div class="row done">
+        <div class="col-12 col-sm-2">
+            <button type="button" class="btn btn-danger" id="taskCButton">Delete</button>
+        </div>
+        <div class="col-12 col-sm-10">
+            School Run
+        </div>
+    </div>
+    <div class="row done">
+        <div class="col-12 col-sm-2 ">
+            <button type="button" class="btn btn-danger" id="taskCButton">Delete</button>
+        </div>
+        <div class="col-12 col-sm-10">
+            Morning Coffee
+        </div>
+    </div>
+    </div>
+    </div>
 
 </head>
 
