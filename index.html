@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="styles.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles.css">
     <title>To Do List Manager</title>
 
     <div>
@@ -25,69 +25,69 @@
                 </div>
             </div>
             <hr>
-            <div class="row">
-                <div class="col-10">
-                    <button type="button" class="btn btn-success" id="addButton">Add</button>
-                    <input type="text" placeholder="New task description" />
+            <div class="row addItem">
+                <div class="col-1 col-sm-2">
+                    <button type="button" class="btn btn-success addButton">Add</button>
+                </div>
+                <div class="col-12 col-sm-10">
+                    <input type="text" class="form-control addText" aria-label="eg" aria-describedby="inputGroup-sizing-sm"
+                        placeholder="New task description">
+                </div>
+            </div>
+            <hr>
+            <h5> Tasks Still to Complete </h5>
+            <div class="row toDo">
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-danger delButton">Delete</button>
+                </div>
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-secondary taskTButton">Done</button>
+                </div>
+                <div class="col-12 col-sm-8">
+                    Eat Snack
+                </div>
+            </div>
+            <div class="row toDo">
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-danger delButton">Delete</button>
+                </div>
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-secondary taskTButton">Done</button>
+                </div>
+                <div class="col-12 col-sm-8">
+                    Play with Lego and K'nex
+                </div>
+            </div>
+            <div class="row toDo">
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-danger delButton">Delete</button>
+                </div>
+                <div class="col-6 col-sm-2">
+                    <button type="button" class="btn btn-secondary taskTButton">Done</button>
+                </div>
+                <div class="col-12 col-sm-8">
+                    Watch TV
+                </div>
+            </div>
+            <br>
+            <h5> Tasks Already Done!!</h5>
+            <div class="row done">
+                <div class="col-12 col-sm-2">
+                    <button type="button" class="btn btn-danger taskCButton">Delete</button>
+                </div>
+                <div class="col-12 col-sm-10">
+                    School Run
+                </div>
+            </div>
+            <div class="row done">
+                <div class="col-12 col-sm-2 ">
+                    <button type="button" class="btn btn-danger taskCButton">Delete</button>
+                </div>
+                <div class="col-12 col-sm-10">
+                    Morning Coffee
                 </div>
             </div>
         </div>
-    </div>
-    <br>
-    <hr>
-    <h5> Tasks Still to Complete </h5>
-    <div class="row toDo">
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
-        </div>
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
-        </div>
-        <div class="col-12 col-sm-8">
-            Eat Snack
-        </div>
-    </div>
-    <div class="row toDo">
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
-        </div>
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
-        </div>
-        <div class="col-12 col-sm-8">
-            Play with Lego and K'nex
-        </div>
-    </div>
-    <div class="row toDo">
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-danger" id="delButton">Delete</button>
-        </div>
-        <div class="col-6 col-sm-2">
-            <button type="button" class="btn btn-secondary" id="taskTButton">Done</button>
-        </div>
-        <div class="col-12 col-sm-8">
-            Watch TV
-        </div>
-    </div>
-    <br>
-    <h5> Tasks Already Done!!</h5>
-    <div class="row done">
-        <div class="col-12 col-sm-2">
-            <button type="button" class="btn btn-danger" id="taskCButton">Delete</button>
-        </div>
-        <div class="col-12 col-sm-10">
-            School Run
-        </div>
-    </div>
-    <div class="row done">
-        <div class="col-12 col-sm-2 ">
-            <button type="button" class="btn btn-danger" id="taskCButton">Delete</button>
-        </div>
-        <div class="col-12 col-sm-10">
-            Morning Coffee
-        </div>
-    </div>
-    </div>
     </div>
 
 </head>
